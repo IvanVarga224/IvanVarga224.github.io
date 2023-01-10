@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/project/CSS/main.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script defer src="/project/JAVASCRIPT/index.js"></script>
+    <title>Homepage</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-fixed-top navbar-expand-md">
+        <div class="container">
+            <a href="homepage.html" class="navbar-brand">Ivan Varga</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse md-d-flex justify-content-end" id="nav" aria-controls="nav" aria-label="Expand Navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="homepage.html" class="nav-link" aria-current="page">Početna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#omeni" class="nav-link">O meni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#vještine" class="nav-link">Vještine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#kontakt" class="nav-link">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container p-0 mt-sm-5 overflow-hidden">
+        <header class="row" id="omeni">
+            <div class="col-md-4 p-0">
+                <img class="img-fluid w-100" src="../images/portret_portfolio.jpg" alt="Portfolio slika">
+            </div>
+            <div class="col-md-8 d-md-flex flex-column justify-content-center px-lg-5 px-md-3" >
+                <div class="txt">
+                <h5 class="mb-0 ">Pozdrav ja sam Ivan</h5>
+                <h1 class="mb-0">Front end developer</h1>
+                <p class="mb-0 ">Ukoliko te zanima planiranje, dizajn i razvoj web sučelja, na pravom si mjestu. Edukativnim sadržajem te uvodim u svijet kodiranja.</p>
+                </div>
+                <div class="gumb">
+                    <a href="my_portfolio.html"><button class="gmb">klik za više</button></a>
+                </div>
+            </div>
+        </header>
+        <main id="vještine">
+            <div class="title row text-center">
+                <h2>Vještine</h2>
+            </div>
+                <hr class="d-none d-lg-block">
+                <div class="col-lg-9 mx-auto">
+                    <div class="cards row">
+                        <div class="col-md-4 p-1">
+                            <div class="card d-flex justify-content-center">
+                                <img src="../images/web dizajn-gotovo.jpg" alt="Slika na kojoj piše HTML">
+                                <div class="card-body">
+                                    <h5 class="card-title">Web Dizajn</h5>
+                                    <p class="card-text">Kako bi svoj workflow učinio još boljim krenuo sam graditi prototipe u figmi prije samog kodiranja.</p>
+                                    <a class="card-link btn cards-btn" href="web_dizajn.html">Saznaj Više</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-1">
+                            <div class="card ">
+                            <img src="../images/frontend_gotovo.jpg" alt="Slika na kojoj piše HTML">
+                            <div class="card-body">
+                                <h5 class="card-title">Front End</h5>
+                                <p class="card-text">Gledajući druge kako kodiraju web stranice od kojih zastaje dah razvila se želja da se ja uključim u taj proces.</p>
+                                <a class="card-link btn cards-btn" href="frontend.html">Saznaj Više</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="card">
+                                <img src="../images/grafičkidizajn-gotovo.jpg" alt="Slika na kojoj piše HTML">
+                                <div class="card-body">
+                                    <h5 class="card-title">Grafički Dizajn</h5>
+                                    <p class="card-text">Prije same izrade prototipa u figmi pripremam materijale za pravilno korištenje na webu.</p>
+                                    <a class="card-link btn cards-btn" href="grafički_dizajn.html">Saznaj Više</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="d-none d-lg-block">
+        </main>
+        <div class="contacts" id="kontakt">
+            <div class="row">
+                <div class="col-6">
+                    <div class="up">
+                        <h2 class="mb-0">Ostavi nam poruku</h2>
+                        <p>Želite suradnju ili samo imate upit vezan uz rad. Ne ustručavajte se kontaktirati me.</p>
+                    </div>
+                    <div class="down mb-3">
+                        <a href="mailto:ivanvarga224@gmail.com" target="_blank"><button class="contact-btn">Kontaktiraj me</button></a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="float-end links">
+                        <ul class="links p-0 text-center d-flex flex-column gap-2">
+                            <li><a href="homepage.html">Početna</a></li>
+                            <li><a href="#omeni">O meni</a></li>
+                            <li><a href="#vještine">Vještine</a></li>
+                            <li><a href="#kontakt">Kontakt</a></li>
+                        </ul>
+                        <div class="social-media d-flex gap-2">
+                            <a href="https://discord.com/invite/6AKQCGyxAK" target="_blank"><i class='bx bxl-discord bx-sm'></i></a>
+                            <a href="https://www.linkedin.com/in/ivan-varga-6b504b201/" target="_blank"><i class='bx bxl-linkedin-square bx-sm'></i></a>
+                            <a href="https://github.com/IvanVarga224"target="_blank"><i class='bx bxl-github bx-sm'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-4 mt-auto">
+        <div class="container text-center">
+            <small>&copy;VARGA, <span id="datum"></span></small>
+        </div>
+    </footer>
+    </ul>
+</html>
